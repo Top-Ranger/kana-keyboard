@@ -44,6 +44,7 @@ KeyboardLayout {
         CharacterKey { caption: "ま"; captionShifted: "マ"; symView: ""; symView2: "" }
         CharacterKey { caption: "や"; captionShifted: "ヤ"; symView: ""; symView2: ""; accents: "ゃ"; accentsShifted: "ャ" }
         CharacterKey { caption: "ら"; captionShifted: "ラ"; symView: ""; symView2: "" }
+        CharacterKey { caption: "わ"; captionShifted: "ワ"; symView: ""; symView2: "" }
     }
     
     KeyboardRow {
@@ -56,6 +57,7 @@ KeyboardLayout {
         CharacterKey { caption: "み"; captionShifted: "ミ"; symView: ""; symView2: "" }
         CharacterKey { caption: ""; captionShifted: ""; symView: ""; symView2: "" }
         CharacterKey { caption: "り"; captionShifted: "リ"; symView: ""; symView2: "" }
+        CharacterKey { caption: ""; captionShifted: "ヰ"; symView: ""; symView2: "" }
     }
     
     KeyboardRow {
@@ -68,6 +70,7 @@ KeyboardLayout {
         CharacterKey { caption: "む"; captionShifted: "ム"; symView: ""; symView2: "" }
         CharacterKey { caption: "ゆ"; captionShifted: "ユ"; symView: ""; symView2: ""; accents: "ゅ"; accentsShifted: "ュ" }
         CharacterKey { caption: "る"; captionShifted: "ル"; symView: ""; symView2: "" }
+        CharacterKey { caption: ""; captionShifted: ""; symView: ""; symView2: "" }
     }
     
     KeyboardRow {
@@ -80,6 +83,7 @@ KeyboardLayout {
         CharacterKey { caption: "め"; captionShifted: "メ"; symView: ""; symView2: "" }
         CharacterKey { caption: ""; captionShifted: ""; symView: ""; symView2: "" }
         CharacterKey { caption: "れ"; captionShifted: "レ"; symView: ""; symView2: "" }
+        CharacterKey { caption: ""; captionShifted: "ヱ"; symView: ""; symView2: "" }
     }
     
     KeyboardRow {
@@ -92,21 +96,15 @@ KeyboardLayout {
         CharacterKey { caption: "も"; captionShifted: "モ"; symView: ""; symView2: "" }
         CharacterKey { caption: "よ"; captionShifted: "ヨ"; symView: ""; symView2: ""; accents: "ょ"; accentsShifted: "ョ" }
         CharacterKey { caption: "ろ"; captionShifted: "ロ"; symView: ""; symView2: "" }
-    }
-    
-    KeyboardRow {
-        CharacterKey { caption: "わ"; captionShifted: "ワ"; symView: ""; symView2: "" }
-        CharacterKey { caption: ""; captionShifted: "ヰ"; symView: ""; symView2: "" }
-        CharacterKey { caption: ""; captionShifted: "ヱ"; symView: ""; symView2: "" }
         CharacterKey { caption: "を"; captionShifted: "ヲ"; symView: ""; symView2: "" }
-        CharacterKey { caption: "ん"; captionShifted: "ン"; symView: ""; symView2: "" }
-        BackspaceKey {}
     }
     
     KeyboardRow {
         ShiftKey {}
+        CharacterKey { caption: "ん"; captionShifted: "ン"; symView: ""; symView2: "" }
         SpacebarKey {}
         CharacterKey { caption: "。"; captionShifted: "ー" }
+        BackspaceKey {}
         EnterKey {}
     }
 }
