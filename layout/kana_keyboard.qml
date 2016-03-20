@@ -33,6 +33,7 @@ import ".."
 
 KeyboardLayout {
     splitSupported: false
+    useTopItem: false
     
     KeyboardRow {
         CharacterKey { caption: "あ"; captionShifted: "ア"; symView: ""; symView2: "" }
