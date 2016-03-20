@@ -104,7 +104,7 @@ KeyboardLayout {
         CharacterKey { caption: "ん"; captionShifted: "ン"; symView: ""; symView2: "" }
         SpacebarKey {}
         CharacterKey { caption: "。"; captionShifted: "ー" }
-        BackspaceKey {}
         EnterKey {}
+        BackspaceKey {}
     }
 }
